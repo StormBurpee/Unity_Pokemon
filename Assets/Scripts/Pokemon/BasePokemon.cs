@@ -8,6 +8,7 @@ public class BasePokemon : MonoBehaviour {
     public Sprite image;
     public BiomeList biomeFound;
     public PokemonType type;
+    public Rarity rarity;
     public float baseHP;
     private float maxHP;
     public float baseAttack;
@@ -19,7 +20,6 @@ public class BasePokemon : MonoBehaviour {
     private int level;
 
 	void Start () {
-	
 	}
 	void Update () {
 	

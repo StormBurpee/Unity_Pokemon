@@ -16,5 +16,8 @@ public class Regions : MonoBehaviour {
 
 public enum BiomeList
 {
-    BiomeList
+    Grass,
+    Sand,
+    Water,
+    Ice
 }
